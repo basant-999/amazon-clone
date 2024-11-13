@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 235px;
+    display: block;
+    transition: 0.3s;
+}
+.box{
+overflow: hidden;
+border-radius: 20px;
+
+}
+.box:hover img{
+    scale: 1.1;
+}

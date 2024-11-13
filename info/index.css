@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    background-image:url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/24/banner/reimagining-cloud-strategy-ai-first-enterprises-lead.jpg") ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 30px;
+    font-size: 16px;
+    position: relative;
+    font-family: 300;
+    font-family: myriad-pro, Arial
+    
+}
+/* =========================nav hover==================== */
+#menu a::before{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+     border-bottom: 2px solid #ffffff  ;
+     transition: 0.4s linear;  
+     
+}
+#menu a:hover::before{
+    width: 100%;
+}
+/* ================================================= */
+#logo a{
+    font-size: 32px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: myriad-pro, Arial;
+    font-weight: 400;
+    height :auto;
+    line-height :20px;
+    text-size-adjust :100%;
+    transform-origin :0px 0px;
+
+}
+
+#imgtxt{
+    /* max-width: 540px; */
+    position: absolute;
+    top: 50%;
+    /* left: 3%; */
+    font-size: 40px;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    align-items: center;
+    color: #ffffff;
+    /* text-align: center; */
+    
+}
+/* ===================================button right hover====================== */
+
+#imgtxt a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    padding:  10px 50px;
+    border: 2px solid white; 
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: 1s;
+}
+#imgtxt a:hover{
+    border-color: black;
+    color: #ffffff;
+}
+#imgtxt a::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+    color: #ffffff;
+    z-index: -2;
+    transition: 1s;
+
+}
+#imgtxt a:hover::before{
+    left: 0;
+}
+/* ================================================================== */
+
+/* ========================second page=============================== */
+#second{
+    height: 650px;
+    background-color:chocolate;
+   
+    display: flex;
+    align-items: center;
+}
+#second1 span{
+font-size: 50px;
+margin-left: 40px;
+font-family: Arial, Helvetica, sans-serif;
+color: #ffffff;
+font-weight: 600;
+}
+#second1 p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 40px;
+}
+#second1 a{
+    padding: 10px 40px;
+    border: 2px solid white;
+    margin-left: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+}
+#second1 a:hover{
+    border-color: black ;
+    color: #ffffff;
+}
+#second1 a::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    top: 0;
+    left: -100%;
+    /* transition: 0.5s; */
+    color: #ffffff;
+    z-index: -2;
+    transition: 1s;
+   
+}
+#second1 a:hover::before{
+    left: 0;
+}
+/* ================================================== */
+#second2{
+    position: absolute;
+    margin-left: 250px;
+}
+/* ================================page3================ */
+#three{
+    height: 650px;
+   background-color: rgb(97, 97, 173);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   
+}
+/* ==================================four=============== */
+#four{
+    height: 650px;
+    background-color:purple ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+/* =================================five====================== */
+ #five h2{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+    color: #000000;
+}
+#five p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #565656;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 40px;
+}
+#fivepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+/* =============================image hover================= */
+#fivepage{
+    display: flex;
+}
+#pencle{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#pencle img{
+    height: 235px;
+    width: 235px;
+}
+.card{
+    height: 475px;
+    width: 470px;
+    overflow: hidden;
+    position:relative ;
+    /* padding-bottom: 5px; */
+    background-size: cover;
+    margin-bottom: 4px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+
+}
+.boby{
+    width: 100%;
+    height: 100%;
+    top: 80%;
+    bottom: -100%;
+    position: absolute;
+    background-color: #1f3d4738;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+  .card .boby #sub  {
+    font-size: 10px;
+    color: #ffffff;
+}
+.info{
+    font-size: 16px;
+}
+.card:hover .boby{
+    top: 0;
+    transition: 1s;
+}
+.card:hover img{
+    scale: 1.1;
+    transition: 1s;
+}
+/* =====================four image================== */
+.card1{
+    height: 235px;
+    width: 235px;
+    overflow: hidden;
+    position:relative ;
+    /* padding-bottom: 5px; */
+    background-size: cover;
+}
+.card1:hover .boby{
+    top: 0;
+    transition: 1s;
+}
+.card1:hover img{
+    scale: 1.1;
+    transition: 1s;
+}
+/* ========================== */
+.card2{
+    height: 235px;
+    width: 235px;
+    overflow: hidden;
+    position:relative ;
+    /* padding-bottom: 5px; */
+    background-size: cover;
+}
+.card2:hover .boby{
+    top: 0;
+    transition: 1s;
+}
+.card2:hover img{
+    scale: 1.1;
+    transition: 1s;
+}
+/* =============================== */
+.card3{
+    height: 235px;
+    width: 235px;
+    overflow: hidden;
+    position:relative ;
+    /* padding-bottom: 5px; */
+    background-size: cover;
+}
+.card3:hover .boby{
+    top: 0;
+    transition: 1s;
+}
+.card3:hover img{
+    scale: 1.1;
+    transition: 1s;
+}
+/* ======================== */
+.card4{
+    height: 235px;
+    width: 235px;
+    overflow: hidden;
+    position:relative ;
+    /* padding-bottom: 5px; */
+    background-size: cover;
+}
+.card4:hover .boby{
+    top: 0;
+    transition: 1s;
+}
+.card4:hover img{
+    scale: 1.1;
+    transition: 1s;
+}
+
+/* =======================================six page======================= */
+#six{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+margin-top: 50px;
+}
+#six div{
+font-size: 25px;
+color: #000000;
+font-weight: 700;
+line-height: 25px;
+}
+#six div span{
+    font-size: 25px;
+    background-color: #000000;
+    padding: 5px 5px;
+    border-radius: 50px;
+  color: #ffffff;
+}
+
+/* =================================siven page============================= */
+
+#mainsiven{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#siven{
+    height: 400px;
+    width: 1200px;
+    background-image: url('https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/launches-new-sonic-identity-lead.png');
+    /* background-size: cover; */
+    justify-content: center;
+    
+}
+#siven h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left:60px ;
+}
+#siven button{
+    padding: 10px 40px;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    margin-left: 60px;
+    font-weight: 800;
+}
+#siven button:hover{
+    cursor: pointer;
+    background-color: rgb(1, 1, 48);
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+/* ==============================eight page===================== */
+#eight{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+#pose{
+    
+    margin-top:100px ;
+    border: 3px solid #92d1ff;
+    height: 300px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 40px 0px 40px;
+
+}
+#pose h1{
+    font-family: tungstenw05-medium, Oswald, sans-serif;
+    letter-spacing: 2px;
+    font-size: 70px;
+    line-height: 0.9;
+}
+#pose p{
+    font-size: 30px;
+    font-weight: 400;
+}
+/* ==========================page nine=========================== */
+
+#nine{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+#nine div img{
+    height: 100%;
+    width: 100%;
+}
+#nine div{
+    overflow: hidden;
+    background-size: cover;
+}
+#nine div img:hover{
+    scale: 1.1;transition: 0.5s;
+}
+#image1{
+    
+    overflow: hidden;
+    position: relative;
+}
+#grid1{
+    width: 100%;
+    height: 100%;
+    top: 40%;
+    bottom: -100%;
+    position: absolute;
+    background-color: transparent ;
+    backdrop-filter: blur(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+/* #image1:hover #grid1{
+    top: 0;
+    transition: 1s;
+} */
+/* ===================================ten page===================== */
+#ten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+#ten h1{
+    font-size: 70px;
+    color: #000000;
+}
+#ten p{
+    font-size: 40px;
+    color: #565656;
+}
+#cent{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+#cent2 h3{
+    font-size: 50px;
+    color: #000000;
+}
+#cent2 span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #565656;
+}
+#cent2 p{
+    font-size: 25px;
+    color: #565656;
+    
+}
+#cent2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#cent div img{
+    height: 100%;
+    width: 100%;
+}
+#cent div img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#cent div{
+    overflow: hidden;
+}
+/* ============================eleven page======================== */
+#eleven{
+    background-color: purple;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#lastfirst div{
+     height: 220px;
+    width: 220px;
+     background-color: purple;
+     border: 2px solid #ffffff;
+     align-items: center;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     font-size: 25px;
+     color: #ffffff;
+     font-weight: 500;
+}
+#lastfirst{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+#lastfirst div:hover{
+    cursor: pointer;
+    background-color: #e0d9d9;
+    transition: 0.5s;
+    color: #000000;
+}
+#lets h1{
+    font-size: 65px;
+    line-height: 73px;
+    font-weight: 900;
+    color: #ffffff;
+}
+#lets button{
+    padding: 10px 40px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    margin-top:40px ;
+  
+    
+}
+#lets button:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color: purple;
+    border: 2px solid #000000;
+}
+#lets {
+    overflow: hidden;
+    height: 70%;
+}
+/* =========================footer===================== */
+#foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 350px;
+}
+ #foot h1{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+#content a{
+    font-size: 16px;
+    color: #3f3f3f;
+    text-decoration:underline;
+}
+#content div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+
+}
+/* ===========================foot2 ==============*/
+#foot2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0d9d9;
+    color: #000000;
+    height: 60px;
+}
+#foot2 input{
+    padding: 10px;
+    border: none;
+}
+#foot2 select{
+    padding: 10px;
+    border: none;
+}
+
+
+
+
+

@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#navbar article a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+#scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+#scroll img{
+    
+    width: 1440px;
+}
+
+/* ===============================second page=============================== */
+#second{
+    height: 800px;
+    background-color: yellow;
+    background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-capabilities-lead-tab.png);
+
+    
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: "tungstenw05-medium", "Oswald", sans-serif;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+p{
+    font-size: 20px;
+    line-height: 23.5px;
+    font-weight: 400;
+    color: white;
+    
+}
+#text{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+/* third page==================== */
+#third{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(97, 97, 173);
+    height: 800px;
+}
+
+/* fourth page============================== */
+#fourth{
+    background-color: blueviolet;
+    height: 800px;
+}
+
+/* =fifth page=============================== */
+h1{
+    color: black;
+    
+}
+p{
+    color: black;
+}
+
+/* =========six page================= */
+#six{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+#sixbk img {
+    height: 600px;
+}
+
+#siximg div img{
+    height: 300px;
+    width: 300px;
+}
+
+#siximg{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+ #six  img:hover{
+    background-color: brown;
+    transform: 1s; 
+}
+
+/* ===============================eight page======================= */
+#eight{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-evenly;
+    color:black;
+    align-items: center;
+    text-align: center;
+}
+#eight div span{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50px;
+    font-size:x-large;
+}
+#eight div span:hover{
+    cursor: pointer;
+    background-color: brown;
+    transition: 1s;
+    color: black;
+}
+
+/* ====================nine page===================== */
+#nine1{
+    justify-content: center;
+    text-align: center;
+   z-index: 0;
+    
+}
+#nine1 img{
+    height: 400px;
+    width: 1200px;
+}
+
+/* =============================ten page========================= */
+#ten{
+    margin-top: 100px;
+    height: 300px;
+    width: 1200px;
+    border: 3px solid rgb(127, 127, 233);
+    border-radius: 0px 40px 0px 40px;
+}
+#ten1{
+    
+    font-family: tungstenw05-medium, Oswald, sans-serif;
+    letter-spacing: 2px;
+    font-size: 70px;
+    line-height: 0.9;
+  
+}
+#ten2{
+    font-size: 24px;
+}
+
+/* =============================eleven page============================ */
+#eleven{
+    
+    text-align: center;
+}
+#eleven0{
+    font-size: 50px;
+
+}
+#eleven div span{
+    font-size: 24px;
+}
+#eleven1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+/* =========================twelve page================================ */
+#twelve{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+#twelve img{
+    height: 300px;
+    width: 300px;
+}
+#twelve img:hover{
+    cursor: all-scroll
+    ;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    color: black;
+    background-color: brown; 
+} 

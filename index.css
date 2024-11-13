@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+
+    
+    justify-content: space-between;
+    background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/24/banner/ai-amplified-marketing-suite-lead.jpg);
+    height: 100vh;
+   
+
+}
+#nav2{
+    display: flex;
+}
+
+#navbar article a{
+    font-family: myriad-pro, Arial;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+#navbar article{
+    /* margin-top: 30px; */
+    padding: 30px;
+}
+#navbar div{
+}
+/* ===========================hero============= */
+#hero{
+    
+    height: 100vh;
+}
+/* =================second page================================ */
+#secondpage{
+   background-image: url(/content/dam/infosys-web/en/home/images/ai-core-01.png);
+}
